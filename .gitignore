@@ -1,0 +1,91 @@
+# Environment
+config/.env
+*.env
+.env.local
+!config/.env.example
+config/spark_config.py
+
+# Data (too large)
+data/bosch/raw/*.zip
+data/bosch/processed/*.parquet
+data/bosch/raw/
+Screenshots/
+!docs/
+
+# Credentials and secrets
+*/credentials.json
+**/config.json
+**/*_secret*
+terraform/*.tfvars
+terraform/*.tfstate*
+!terraform/*.tfvars.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+mavenv/
+.venv
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.pyc
+*~
+
+# Logs
+logs/
+*.log
+
+# AWS
+.aws/
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spark
+spark-local/
+.sparkStaging/
+
+# DBT
+manufacturing_analytics/target/
+manufacturing_analytics/dbt_packages/
+manufacturing_analytics/logs/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+streamlit_dashboard/.streamlit/secrets.toml

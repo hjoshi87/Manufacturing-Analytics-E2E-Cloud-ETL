@@ -1,0 +1,12 @@
+{
+    "Role": "arn:aws:iam::298722972596:role/GlueServiceRole",
+    "GlueVersion": "4.0",
+    "Command": {
+        "Name": "glueetl",
+        "ScriptLocation": "s3://manufacturing-energy-glue-scripts-hj-capstone-project/glue_bronze_to_silver.py",
+        "PythonVersion": "3"
+    },
+    "DefaultArguments": {
+        "spark.sql.parquet.nanosAsLong": "true"
+    }
+}

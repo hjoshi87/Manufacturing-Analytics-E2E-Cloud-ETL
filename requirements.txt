@@ -1,0 +1,53 @@
+# Data processing
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+
+# Kafka
+kafka-python==2.0.2
+confluent-kafka==2.2.0
+
+# AWS
+boto3
+s3fs
+
+# Spark
+pyspark==3.4.0
+
+# H5 files (Bosch data)
+h5py==3.9.0
+tables==3.8.0
+
+# API clients
+requests==2.31.0
+httpx==0.24.1
+
+# Config management
+python-dotenv==1.0.0
+
+# Logging
+loguru==0.7.0
+
+# Utilities
+click==8.1.7
+tqdm==4.66.1
+
+# Development
+pytest==7.4.0
+black==23.9.1
+flake8==6.0.0
+
+
+pyspark==3.4.0
+
+matplotlib
+
+pyarrow
+psycopg2-binary
+
+streamlit
+plotly
+
+sqlalchemy
+
+redshift-connector

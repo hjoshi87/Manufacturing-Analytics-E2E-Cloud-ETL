@@ -1,0 +1,9 @@
+Bosch (HDF5) → Kafka → Spark ETL
+     ↓
+Energy (API) → Spark ETL ───┐
+     ↓                      │
+Industrial (API) ─ Spark ←──┴─→ Bronze Layer
+                                (S3 Parquet)
+
+
+                             
